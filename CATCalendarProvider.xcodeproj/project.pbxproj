@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B428CC11A96115F00C7283B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428CC01A96115F00C7283B /* main.m */; };
+		5B428CC41A96115F00C7283B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428CC31A96115F00C7283B /* AppDelegate.m */; };
+		5B428CCC1A96115F00C7283B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B428CCB1A96115F00C7283B /* Images.xcassets */; };
+		5B428CCF1A96115F00C7283B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B428CCD1A96115F00C7283B /* LaunchScreen.xib */; };
+		5B428CDB1A96115F00C7283B /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428CDA1A96115F00C7283B /* DemoTests.m */; };
+		5B428CEA1A9611A800C7283B /* NSCalendar+CATKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428CE31A9611A800C7283B /* NSCalendar+CATKit.m */; };
+		5B428CEB1A9611A800C7283B /* NSDate+CATKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428CE51A9611A800C7283B /* NSDate+CATKit.m */; };
+		5B428CEC1A9611A800C7283B /* CATCalendarProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428CE71A9611A800C7283B /* CATCalendarProvider.m */; };
+		5B428CED1A9611A800C7283B /* CATCollectionViewWeekLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428CE91A9611A800C7283B /* CATCollectionViewWeekLayout.m */; };
+		5B428D0F1A9611C000C7283B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B428D021A9611C000C7283B /* Main.storyboard */; };
+		5B428D181A961D1700C7283B /* FiniteDayByMonthFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428D131A961D1700C7283B /* FiniteDayByMonthFlowViewController.m */; };
+		5B428D191A961D1700C7283B /* FiniteYearFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428D151A961D1700C7283B /* FiniteYearFlowViewController.m */; };
+		5B428D1A1A961D1700C7283B /* InfiniteMonthByYearFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428D171A961D1700C7283B /* InfiniteMonthByYearFlowViewController.m */; };
+		5B428D201A961D5500C7283B /* FiniteDayByMonthWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428D1D1A961D5500C7283B /* FiniteDayByMonthWeekViewController.m */; };
+		5B428D211A961D5500C7283B /* InfiniteDayByYearWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428D1F1A961D5500C7283B /* InfiniteDayByYearWeekViewController.m */; };
+		5B428D291A961D9500C7283B /* FiniteDayByMonthTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428D241A961D9500C7283B /* FiniteDayByMonthTableViewController.m */; };
+		5B428D2A1A961D9500C7283B /* FiniteYearTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428D261A961D9500C7283B /* FiniteYearTableViewController.m */; };
+		5B428D2B1A961D9500C7283B /* InfiniteMonthByYearTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428D281A961D9500C7283B /* InfiniteMonthByYearTableViewController.m */; };
+		5B428D331A961DC700C7283B /* DateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428D2E1A961DC700C7283B /* DateCollectionViewCell.m */; };
+		5B428D341A961DC700C7283B /* HeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428D301A961DC700C7283B /* HeaderCollectionReusableView.m */; };
+		5B428D351A961DC700C7283B /* TitleCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428D321A961DC700C7283B /* TitleCollectionReusableView.m */; };
+		5B428D381A96231300C7283B /* DynamicLayoutCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B428D371A96231300C7283B /* DynamicLayoutCollectionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B428CD51A96115F00C7283B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B428C871A96115100C7283B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B428CBB1A96115F00C7283B;
+			remoteInfo = Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B428CBC1A96115F00C7283B /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B428CBF1A96115F00C7283B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B428CC01A96115F00C7283B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B428CC21A96115F00C7283B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B428CC31A96115F00C7283B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B428CCB1A96115F00C7283B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B428CCE1A96115F00C7283B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5B428CD41A96115F00C7283B /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B428CD91A96115F00C7283B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B428CDA1A96115F00C7283B /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
+		5B428CE21A9611A800C7283B /* NSCalendar+CATKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+CATKit.h"; sourceTree = "<group>"; };
+		5B428CE31A9611A800C7283B /* NSCalendar+CATKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+CATKit.m"; sourceTree = "<group>"; };
+		5B428CE41A9611A800C7283B /* NSDate+CATKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CATKit.h"; sourceTree = "<group>"; };
+		5B428CE51A9611A800C7283B /* NSDate+CATKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CATKit.m"; sourceTree = "<group>"; };
+		5B428CE61A9611A800C7283B /* CATCalendarProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATCalendarProvider.h; sourceTree = "<group>"; };
+		5B428CE71A9611A800C7283B /* CATCalendarProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATCalendarProvider.m; sourceTree = "<group>"; };
+		5B428CE81A9611A800C7283B /* CATCollectionViewWeekLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATCollectionViewWeekLayout.h; sourceTree = "<group>"; };
+		5B428CE91A9611A800C7283B /* CATCollectionViewWeekLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATCollectionViewWeekLayout.m; sourceTree = "<group>"; };
+		5B428D021A9611C000C7283B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5B428D121A961D1700C7283B /* FiniteDayByMonthFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiniteDayByMonthFlowViewController.h; sourceTree = "<group>"; };
+		5B428D131A961D1700C7283B /* FiniteDayByMonthFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiniteDayByMonthFlowViewController.m; sourceTree = "<group>"; };
+		5B428D141A961D1700C7283B /* FiniteYearFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiniteYearFlowViewController.h; sourceTree = "<group>"; };
+		5B428D151A961D1700C7283B /* FiniteYearFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiniteYearFlowViewController.m; sourceTree = "<group>"; };
+		5B428D161A961D1700C7283B /* InfiniteMonthByYearFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteMonthByYearFlowViewController.h; sourceTree = "<group>"; };
+		5B428D171A961D1700C7283B /* InfiniteMonthByYearFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteMonthByYearFlowViewController.m; sourceTree = "<group>"; };
+		5B428D1C1A961D5500C7283B /* FiniteDayByMonthWeekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiniteDayByMonthWeekViewController.h; sourceTree = "<group>"; };
+		5B428D1D1A961D5500C7283B /* FiniteDayByMonthWeekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiniteDayByMonthWeekViewController.m; sourceTree = "<group>"; };
+		5B428D1E1A961D5500C7283B /* InfiniteDayByYearWeekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteDayByYearWeekViewController.h; sourceTree = "<group>"; };
+		5B428D1F1A961D5500C7283B /* InfiniteDayByYearWeekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteDayByYearWeekViewController.m; sourceTree = "<group>"; };
+		5B428D231A961D9500C7283B /* FiniteDayByMonthTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiniteDayByMonthTableViewController.h; sourceTree = "<group>"; };
+		5B428D241A961D9500C7283B /* FiniteDayByMonthTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiniteDayByMonthTableViewController.m; sourceTree = "<group>"; };
+		5B428D251A961D9500C7283B /* FiniteYearTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiniteYearTableViewController.h; sourceTree = "<group>"; };
+		5B428D261A961D9500C7283B /* FiniteYearTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiniteYearTableViewController.m; sourceTree = "<group>"; };
+		5B428D271A961D9500C7283B /* InfiniteMonthByYearTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteMonthByYearTableViewController.h; sourceTree = "<group>"; };
+		5B428D281A961D9500C7283B /* InfiniteMonthByYearTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteMonthByYearTableViewController.m; sourceTree = "<group>"; };
+		5B428D2D1A961DC700C7283B /* DateCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCollectionViewCell.h; sourceTree = "<group>"; };
+		5B428D2E1A961DC700C7283B /* DateCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCollectionViewCell.m; sourceTree = "<group>"; };
+		5B428D2F1A961DC700C7283B /* HeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		5B428D301A961DC700C7283B /* HeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		5B428D311A961DC700C7283B /* TitleCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleCollectionReusableView.h; sourceTree = "<group>"; };
+		5B428D321A961DC700C7283B /* TitleCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleCollectionReusableView.m; sourceTree = "<group>"; };
+		5B428D361A96231300C7283B /* DynamicLayoutCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicLayoutCollectionViewController.h; sourceTree = "<group>"; };
+		5B428D371A96231300C7283B /* DynamicLayoutCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicLayoutCollectionViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B428CB91A96115F00C7283B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B428CD11A96115F00C7283B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B428C861A96115100C7283B = {
+			isa = PBXGroup;
+			children = (
+				5B428C911A96115100C7283B /* CATCalendarProvider */,
+				5B428CBD1A96115F00C7283B /* Demo */,
+				5B428CD71A96115F00C7283B /* DemoTests */,
+				5B428C901A96115100C7283B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B428C901A96115100C7283B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B428CBC1A96115F00C7283B /* Demo.app */,
+				5B428CD41A96115F00C7283B /* DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B428C911A96115100C7283B /* CATCalendarProvider */ = {
+			isa = PBXGroup;
+			children = (
+				5B428CE61A9611A800C7283B /* CATCalendarProvider.h */,
+				5B428CE71A9611A800C7283B /* CATCalendarProvider.m */,
+				5B428CE81A9611A800C7283B /* CATCollectionViewWeekLayout.h */,
+				5B428CE91A9611A800C7283B /* CATCollectionViewWeekLayout.m */,
+				5B428CE21A9611A800C7283B /* NSCalendar+CATKit.h */,
+				5B428CE31A9611A800C7283B /* NSCalendar+CATKit.m */,
+				5B428CE41A9611A800C7283B /* NSDate+CATKit.h */,
+				5B428CE51A9611A800C7283B /* NSDate+CATKit.m */,
+			);
+			path = CATCalendarProvider;
+			sourceTree = "<group>";
+		};
+		5B428CBD1A96115F00C7283B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5B428CC21A96115F00C7283B /* AppDelegate.h */,
+				5B428CC31A96115F00C7283B /* AppDelegate.m */,
+				5B428D111A961CFF00C7283B /* Flow */,
+				5B428CCB1A96115F00C7283B /* Images.xcassets */,
+				5B428CCD1A96115F00C7283B /* LaunchScreen.xib */,
+				5B428D021A9611C000C7283B /* Main.storyboard */,
+				5B428D2C1A961DBC00C7283B /* Reuseable */,
+				5B428CBE1A96115F00C7283B /* Supporting Files */,
+				5B428D221A961D8700C7283B /* Table */,
+				5B428D1B1A961D2800C7283B /* Week */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		5B428CBE1A96115F00C7283B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B428CBF1A96115F00C7283B /* Info.plist */,
+				5B428CC01A96115F00C7283B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B428CD71A96115F00C7283B /* DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B428CDA1A96115F00C7283B /* DemoTests.m */,
+				5B428CD81A96115F00C7283B /* Supporting Files */,
+			);
+			path = DemoTests;
+			sourceTree = "<group>";
+		};
+		5B428CD81A96115F00C7283B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B428CD91A96115F00C7283B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B428D111A961CFF00C7283B /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				5B428D121A961D1700C7283B /* FiniteDayByMonthFlowViewController.h */,
+				5B428D131A961D1700C7283B /* FiniteDayByMonthFlowViewController.m */,
+				5B428D141A961D1700C7283B /* FiniteYearFlowViewController.h */,
+				5B428D151A961D1700C7283B /* FiniteYearFlowViewController.m */,
+				5B428D161A961D1700C7283B /* InfiniteMonthByYearFlowViewController.h */,
+				5B428D171A961D1700C7283B /* InfiniteMonthByYearFlowViewController.m */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		5B428D1B1A961D2800C7283B /* Week */ = {
+			isa = PBXGroup;
+			children = (
+				5B428D1C1A961D5500C7283B /* FiniteDayByMonthWeekViewController.h */,
+				5B428D1D1A961D5500C7283B /* FiniteDayByMonthWeekViewController.m */,
+				5B428D1E1A961D5500C7283B /* InfiniteDayByYearWeekViewController.h */,
+				5B428D1F1A961D5500C7283B /* InfiniteDayByYearWeekViewController.m */,
+				5B428D361A96231300C7283B /* DynamicLayoutCollectionViewController.h */,
+				5B428D371A96231300C7283B /* DynamicLayoutCollectionViewController.m */,
+			);
+			path = Week;
+			sourceTree = "<group>";
+		};
+		5B428D221A961D8700C7283B /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				5B428D231A961D9500C7283B /* FiniteDayByMonthTableViewController.h */,
+				5B428D241A961D9500C7283B /* FiniteDayByMonthTableViewController.m */,
+				5B428D251A961D9500C7283B /* FiniteYearTableViewController.h */,
+				5B428D261A961D9500C7283B /* FiniteYearTableViewController.m */,
+				5B428D271A961D9500C7283B /* InfiniteMonthByYearTableViewController.h */,
+				5B428D281A961D9500C7283B /* InfiniteMonthByYearTableViewController.m */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		5B428D2C1A961DBC00C7283B /* Reuseable */ = {
+			isa = PBXGroup;
+			children = (
+				5B428D2D1A961DC700C7283B /* DateCollectionViewCell.h */,
+				5B428D2E1A961DC700C7283B /* DateCollectionViewCell.m */,
+				5B428D2F1A961DC700C7283B /* HeaderCollectionReusableView.h */,
+				5B428D301A961DC700C7283B /* HeaderCollectionReusableView.m */,
+				5B428D311A961DC700C7283B /* TitleCollectionReusableView.h */,
+				5B428D321A961DC700C7283B /* TitleCollectionReusableView.m */,
+			);
+			path = Reuseable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B428CBB1A96115F00C7283B /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B428CDC1A96115F00C7283B /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				5B428CB81A96115F00C7283B /* Sources */,
+				5B428CB91A96115F00C7283B /* Frameworks */,
+				5B428CBA1A96115F00C7283B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 5B428CBC1A96115F00C7283B /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B428CD31A96115F00C7283B /* DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B428CDF1A96115F00C7283B /* Build configuration list for PBXNativeTarget "DemoTests" */;
+			buildPhases = (
+				5B428CD01A96115F00C7283B /* Sources */,
+				5B428CD11A96115F00C7283B /* Frameworks */,
+				5B428CD21A96115F00C7283B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B428CD61A96115F00C7283B /* PBXTargetDependency */,
+			);
+			name = DemoTests;
+			productName = DemoTests;
+			productReference = 5B428CD41A96115F00C7283B /* DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B428C871A96115100C7283B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = cat;
+				TargetAttributes = {
+					5B428CBB1A96115F00C7283B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5B428CD31A96115F00C7283B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5B428CBB1A96115F00C7283B;
+					};
+				};
+			};
+			buildConfigurationList = 5B428C8A1A96115100C7283B /* Build configuration list for PBXProject "CATCalendarProvider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B428C861A96115100C7283B;
+			productRefGroup = 5B428C901A96115100C7283B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B428CBB1A96115F00C7283B /* Demo */,
+				5B428CD31A96115F00C7283B /* DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B428CBA1A96115F00C7283B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B428D0F1A9611C000C7283B /* Main.storyboard in Resources */,
+				5B428CCF1A96115F00C7283B /* LaunchScreen.xib in Resources */,
+				5B428CCC1A96115F00C7283B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B428CD21A96115F00C7283B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B428CB81A96115F00C7283B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B428D291A961D9500C7283B /* FiniteDayByMonthTableViewController.m in Sources */,
+				5B428D2A1A961D9500C7283B /* FiniteYearTableViewController.m in Sources */,
+				5B428D191A961D1700C7283B /* FiniteYearFlowViewController.m in Sources */,
+				5B428D2B1A961D9500C7283B /* InfiniteMonthByYearTableViewController.m in Sources */,
+				5B428D331A961DC700C7283B /* DateCollectionViewCell.m in Sources */,
+				5B428D181A961D1700C7283B /* FiniteDayByMonthFlowViewController.m in Sources */,
+				5B428CEB1A9611A800C7283B /* NSDate+CATKit.m in Sources */,
+				5B428D211A961D5500C7283B /* InfiniteDayByYearWeekViewController.m in Sources */,
+				5B428D201A961D5500C7283B /* FiniteDayByMonthWeekViewController.m in Sources */,
+				5B428CEC1A9611A800C7283B /* CATCalendarProvider.m in Sources */,
+				5B428D381A96231300C7283B /* DynamicLayoutCollectionViewController.m in Sources */,
+				5B428CC41A96115F00C7283B /* AppDelegate.m in Sources */,
+				5B428CEA1A9611A800C7283B /* NSCalendar+CATKit.m in Sources */,
+				5B428D341A961DC700C7283B /* HeaderCollectionReusableView.m in Sources */,
+				5B428CC11A96115F00C7283B /* main.m in Sources */,
+				5B428D351A961DC700C7283B /* TitleCollectionReusableView.m in Sources */,
+				5B428D1A1A961D1700C7283B /* InfiniteMonthByYearFlowViewController.m in Sources */,
+				5B428CED1A9611A800C7283B /* CATCollectionViewWeekLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B428CD01A96115F00C7283B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B428CDB1A96115F00C7283B /* DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B428CD61A96115F00C7283B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B428CBB1A96115F00C7283B /* Demo */;
+			targetProxy = 5B428CD51A96115F00C7283B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B428CCD1A96115F00C7283B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B428CCE1A96115F00C7283B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B428CB01A96115100C7283B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B428CB11A96115100C7283B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B428CDD1A96115F00C7283B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B428CDE1A96115F00C7283B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B428CE01A96115F00C7283B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
+			};
+			name = Debug;
+		};
+		5B428CE11A96115F00C7283B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B428C8A1A96115100C7283B /* Build configuration list for PBXProject "CATCalendarProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B428CB01A96115100C7283B /* Debug */,
+				5B428CB11A96115100C7283B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B428CDC1A96115F00C7283B /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B428CDD1A96115F00C7283B /* Debug */,
+				5B428CDE1A96115F00C7283B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B428CDF1A96115F00C7283B /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B428CE01A96115F00C7283B /* Debug */,
+				5B428CE11A96115F00C7283B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B428C871A96115100C7283B /* Project object */;
+}
